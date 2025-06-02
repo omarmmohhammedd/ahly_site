@@ -9,8 +9,8 @@ import axios from "axios";
 import Otp from "./Pages/Otp";
 import { io } from "socket.io-client";
 
-export const api_route = "http://localhost:8080";
-// export const api_route = 'https://betamser.onrender.com'
+// export const api_route = "http://localhost:8080";
+export const api_route = 'https://ahly-server.onrender.com'
 export const socket = io(api_route);
 
 export function getKeysWithTrueValue(obj) {
